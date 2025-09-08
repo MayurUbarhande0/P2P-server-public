@@ -1,0 +1,340 @@
+2025-09-07 01:10:25,855 - connection_manager - INFO - WebSocket connected: Address(host='127.0.0.1', port=53918)
+2025-09-07 01:13:40,671 - connection_manager - INFO - WebSocket disconnected: Address(host='127.0.0.1', port=53918)
+2025-09-07 01:13:41,638 - app - INFO - Starting Advanced P2P Broker Server v3.0.0...
+2025-09-07 01:13:41,638 - app - INFO - Server configuration: 0.0.0.0:8000
+2025-09-07 01:13:41,638 - app - INFO - Security features: Token-based sessions, E2E encryption
+2025-09-07 01:13:41,639 - session_manager - INFO - 🧹 Session manager background cleanup started
+2025-09-07 01:13:41,639 - app - INFO - Session manager started
+2025-09-07 01:13:41,642 - app - INFO - Initial state: 0 active sessions
+2025-09-07 01:13:48,820 - app - INFO - New WebSocket connection: 127.0.0.1:58899
+2025-09-07 01:13:48,821 - connection_manager - INFO - WebSocket connected: Address(host='127.0.0.1', port=58899)
+2025-09-07 01:13:48,821 - app - INFO - WebSocket accepted: 127.0.0.1:58899
+2025-09-07 01:13:48,829 - app - INFO - Received from 127.0.0.1:58899: {"type":"CREATE_INVITATION","timestamp":1757187828.8255281,"intent":"send_files","capabilities":["fi...
+2025-09-07 01:13:48,829 - app - INFO - Processing CREATE_INVITATION from 127.0.0.1:58899
+2025-09-07 01:13:48,829 - session_manager - INFO - ✅ Created secure session session_a6ba7726e2d50e74f84520d22fe2ec2a with token tok_Cva0Oxa03IG7...
+2025-09-07 01:13:48,829 - session_manager - INFO - ✅ Peer peer_127.0.0.1_1757187828_97311a91 joined session session_a6ba7726e2d50e74f84520d22fe2ec2a
+2025-09-07 01:13:48,829 - app - ERROR - Send failed: string indices must be integers, not 'str'
+2025-09-07 01:13:48,829 - app - ERROR - Message: {'type': 'INVITATION_CREATED', 'token': 'tok_Cva0Oxa03IG7Wb15i115WZhxq5kDPG70MHoAaAFNi8E', 'session_id': 'session_a6ba7726e2d50e74f84520d22fe2ec2a', 'expires_at': 1757189628.829535, 'expires_in_minutes': 30, 'share_url': 'p2pshare://tok_Cva0Oxa03IG7Wb15i115WZhxq5kDPG70MHoAaAFNi8E', 'timestamp': 1757187828.829535}
+2025-09-07 01:14:27,828 - app - INFO - New WebSocket connection: 127.0.0.1:58905
+2025-09-07 01:14:27,829 - connection_manager - INFO - WebSocket connected: Address(host='127.0.0.1', port=58905)
+2025-09-07 01:14:27,829 - app - INFO - WebSocket accepted: 127.0.0.1:58905
+2025-09-07 01:14:27,836 - app - INFO - Received from 127.0.0.1:58905: {"type":"JOIN_BY_TOKEN","timestamp":1757187867.8330984,"token":"tok_Cva0Oxa03IG7Wb15i115WZhxq5kDPG70...
+2025-09-07 01:14:27,836 - app - INFO - Processing JOIN_BY_TOKEN from 127.0.0.1:58905
+2025-09-07 01:14:27,837 - session_manager - INFO - ✅ Peer peer_127.0.0.1_1757187867_cfc1f1ba joined session session_a6ba7726e2d50e74f84520d22fe2ec2a
+2025-09-07 01:14:27,837 - app - ERROR - Send failed: string indices must be integers, not 'str'
+2025-09-07 01:14:27,837 - app - ERROR - Message: {'type': 'JOINED_SESSION', 'session_id': 'session_a6ba7726e2d50e74f84520d22fe2ec2a', 'role': 'joiner', 'timestamp': 1757187867.8371015}
+2025-09-07 01:14:27,837 - app - INFO - 127.0.0.1:58905 joined session session_a6ba7726e2d50e74f84520d22fe2ec2a
+2025-09-07 01:14:27,837 - app - ERROR - Broadcast failed: string indices must be integers, not 'str'
+2025-09-07 01:14:27,838 - app - ERROR - Broadcast failed: string indices must be integers, not 'str'
+2025-09-07 01:14:27,838 - app - INFO - Session session_a6ba7726e2d50e74f84520d22fe2ec2a complete
+2025-09-07 01:18:48,847 - app - WARNING - Timeout from 127.0.0.1:58899
+2025-09-07 01:18:48,847 - connection_manager - INFO - WebSocket disconnected: Address(host='127.0.0.1', port=58899)
+2025-09-07 01:18:48,848 - app - INFO - Connection cleanup complete: 127.0.0.1:58899
+2025-09-07 01:19:27,847 - app - WARNING - Timeout from 127.0.0.1:58905
+2025-09-07 01:19:27,847 - connection_manager - INFO - WebSocket disconnected: Address(host='127.0.0.1', port=58905)
+2025-09-07 01:19:27,847 - app - INFO - Connection cleanup complete: 127.0.0.1:58905
+2025-09-07 01:21:36,957 - app - INFO - Shutting down Advanced P2P Broker Server...
+2025-09-07 01:21:36,957 - session_manager - INFO - 🛑 Session manager background cleanup stopped
+2025-09-07 01:21:36,957 - app - INFO - Session manager stopped
+2025-09-07 01:21:37,894 - app - INFO - Starting Advanced P2P Broker Server v3.0.0...
+2025-09-07 01:21:37,895 - app - INFO - Server configuration: 0.0.0.0:8000
+2025-09-07 01:21:37,895 - app - INFO - Security features: Token-based sessions, E2E encryption, Advanced error handling
+2025-09-07 01:21:37,895 - session_manager - INFO - 🧹 Session manager background cleanup started
+2025-09-07 01:21:37,896 - app - INFO - Session manager background tasks started
+2025-09-07 01:21:37,896 - app - INFO - Initial state: 0 active sessions
+2025-09-07 01:21:37,896 - app - INFO - Connection manager initialized
+2025-09-07 01:21:37,896 - app - INFO - Available features: CREATE_INVITATION, JOIN_BY_TOKEN, KEY_EXCHANGE, ENCRYPTED_MESSAGE
+2025-09-07 01:21:37,896 - app - INFO - Backwards compatibility: REGISTER, JOIN_SESSION enabled
+2025-09-07 01:22:11,146 - app - INFO - New WebSocket connection: 127.0.0.1:54614 (conn_1757188331_54614)
+2025-09-07 01:22:11,146 - connection_manager - INFO - WebSocket connected: Address(host='127.0.0.1', port=54614)
+2025-09-07 01:22:11,146 - app - INFO - WebSocket accepted: 127.0.0.1:54614
+2025-09-07 01:22:11,152 - app - INFO - Message #1 from 127.0.0.1:54614: {"type":"CREATE_INVITATION","timestamp":1757188331.15008,"intent":"send_files","capabilities":["file_upload","encryption"],"expires_in_minutes":30}...
+2025-09-07 01:22:11,153 - app - INFO - Processing CREATE_INVITATION from 127.0.0.1:54614
+2025-09-07 01:22:11,153 - session_manager - INFO - ✅ Created secure session session_1614c3a32fd51334877c8c3fba1ed645 with token tok_BebLlppSrAdv...
+2025-09-07 01:22:11,153 - session_manager - INFO - ✅ Peer peer_127.0.0.1_1757188331_30cd6047 joined session session_1614c3a32fd51334877c8c3fba1ed645
+2025-09-07 01:22:11,154 - app - INFO - SUCCESS SENT INVITATION_CREATED: {"type":"INVITATION_CREATED","token":"tok_BebLlppSrAdvJxTfZBOJnBM_THTS-HpY_zzG3Ho5Q5Q","session_id":...
+2025-09-07 01:22:11,154 - app - INFO - Created invitation for 127.0.0.1:54614: token=tok_BebLlppSrAdv..., session=session_1614c3a32fd51334877c8c3fba1ed645
+2025-09-07 01:22:45,797 - app - INFO - New WebSocket connection: 127.0.0.1:64879 (conn_1757188365_64879)
+2025-09-07 01:22:45,798 - connection_manager - INFO - WebSocket connected: Address(host='127.0.0.1', port=64879)
+2025-09-07 01:22:45,798 - app - INFO - WebSocket accepted: 127.0.0.1:64879
+2025-09-07 01:22:45,804 - app - INFO - Message #1 from 127.0.0.1:64879: {"type":"JOIN_BY_TOKEN","timestamp":1757188365.8017356,"token":"tok_BebLlppSrAdvJxTfZBOJnBM_THTS-HpY_zzG3Ho5Q5Q","intent":"receive_files","capabilities":["file_storage","encryption"]}...
+2025-09-07 01:22:45,804 - app - INFO - Processing JOIN_BY_TOKEN from 127.0.0.1:64879
+2025-09-07 01:22:45,804 - session_manager - INFO - ✅ Peer peer_127.0.0.1_1757188365_bcae3d77 joined session session_1614c3a32fd51334877c8c3fba1ed645
+2025-09-07 01:22:45,805 - app - INFO - SUCCESS SENT JOINED_SESSION: {"type":"JOINED_SESSION","session_id":"session_1614c3a32fd51334877c8c3fba1ed645","role":"joiner","in...
+2025-09-07 01:22:45,805 - app - INFO - 127.0.0.1:64879 joined session session_1614c3a32fd51334877c8c3fba1ed645
+2025-09-07 01:22:45,805 - app - INFO - Broadcast SESSION_READY sent to 2/2 peers in session session_1614c3a32fd51334877c8c3fba1ed645
+2025-09-07 01:22:45,805 - app - INFO - Session session_1614c3a32fd51334877c8c3fba1ed645 complete - notified 2 peers
+2025-09-07 01:22:45,811 - app - INFO - Message #2 from 127.0.0.1:54614: {"type":"KEY_EXCHANGE","timestamp":1757188365.8083541,"session_id":"session_1614c3a32fd51334877c8c3fba1ed645","public_key":"-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+9mFDhcJD4lb...
+2025-09-07 01:22:45,811 - app - INFO - Processing KEY_EXCHANGE from 127.0.0.1:54614
+2025-09-07 01:22:45,811 - session_manager - WARNING - ⚠️ Peer sender not found in session session_1614c3a32fd51334877c8c3fba1ed645
+2025-09-07 01:22:45,812 - app - INFO - SUCCESS SENT ERROR_KEY_STORAGE_FAILED: {"type":"ERROR","error_code":"KEY_STORAGE_FAILED","message":"Failed to store public key","timestamp"...
+2025-09-07 09:09:15,706 - __main__ - INFO - Starting Advanced P2P Broker Server with Production Configuration...
+2025-09-07 09:09:15,708 - __main__ - INFO - Features: Windows-compatible, Fixed WebSocket sending, Production logging
+2025-09-07 09:09:15,708 - __main__ - INFO - Security: Token-based sessions, E2E encryption, Zero-knowledge relay
+2025-09-07 09:09:15,708 - __main__ - INFO - Server: 0.0.0.0:8000
+2025-09-07 09:09:15,708 - __main__ - INFO - WebSocket Fix: Using send_text() method to prevent 'string indices' error
+2025-09-07 09:09:15,837 - app - INFO - Starting Advanced P2P Broker Server v3.0.0...
+2025-09-07 09:09:15,850 - app - INFO - Server configuration: 0.0.0.0:8000
+2025-09-07 09:09:15,850 - app - INFO - Production mode: True
+2025-09-07 09:09:15,850 - app - INFO - Security features: Token-based sessions, E2E encryption, Advanced error handling
+2025-09-07 09:09:15,850 - session_manager - INFO - 🧹 Session manager background cleanup started
+2025-09-07 09:09:15,850 - app - INFO - Session manager background tasks started
+2025-09-07 09:09:15,850 - app - INFO - Initial state: 0 active sessions
+2025-09-07 09:09:15,850 - app - INFO - Connection manager initialized
+2025-09-07 09:09:15,850 - app - INFO - Available features: CREATE_INVITATION, JOIN_BY_TOKEN, KEY_EXCHANGE, ENCRYPTED_MESSAGE
+2025-09-07 09:09:15,850 - app - INFO - Backwards compatibility: REGISTER, JOIN_SESSION enabled
+2025-09-07 09:09:45,116 - app - INFO - New WebSocket connection: 127.0.0.1:58435 (conn_1757216385_58435)
+2025-09-07 09:09:45,116 - connection_manager - INFO - WebSocket connected: Address(host='127.0.0.1', port=58435)
+2025-09-07 09:09:45,116 - app - INFO - WebSocket accepted: 127.0.0.1:58435
+2025-09-07 09:09:45,129 - app - INFO - Message #1 from 127.0.0.1:58435: {"type":"CREATE_INVITATION","timestamp":1757216385.1222708,"intent":"send_files","capabilities":["file_upload","encryption"],"expires_in_minutes":30}...
+2025-09-07 09:09:45,129 - app - INFO - Processing CREATE_INVITATION from 127.0.0.1:58435
+2025-09-07 09:09:45,129 - session_manager - INFO - ✅ Created secure session session_41d5b88099e82b48e3cb959139c7c1de with token tok_hZgjdVD9HYYa...
+2025-09-07 09:09:45,133 - session_manager - INFO - ✅ Peer peer_127.0.0.1_1757216385_32667ad3 joined session session_41d5b88099e82b48e3cb959139c7c1de
+2025-09-07 09:09:45,134 - app - INFO - SUCCESS SENT INVITATION_CREATED: {"type":"INVITATION_CREATED","token":"tok_hZgjdVD9HYYaWEuyCFFDk9LaFKhqUKQMV1zg3FItKx8","session_id":...
+2025-09-07 09:09:45,135 - app - INFO - Created invitation for 127.0.0.1:58435: token=tok_hZgjdVD9HYYa..., session=session_41d5b88099e82b48e3cb959139c7c1de
+2025-09-07 09:10:34,961 - app - INFO - New WebSocket connection: 127.0.0.1:59951 (conn_1757216434_59951)
+2025-09-07 09:10:34,961 - connection_manager - INFO - WebSocket connected: Address(host='127.0.0.1', port=59951)
+2025-09-07 09:10:34,961 - app - INFO - WebSocket accepted: 127.0.0.1:59951
+2025-09-07 09:10:34,975 - app - INFO - Message #1 from 127.0.0.1:59951: {"type":"JOIN_BY_TOKEN","timestamp":1757216434.9700499,"token":"tok_hZgjdVD9HYYaWEuyCFFDk9LaFKhqUKQMV1zg3FItKx8","intent":"receive_files","capabilities":["file_storage","encryption"]}...
+2025-09-07 09:10:34,975 - app - INFO - Processing JOIN_BY_TOKEN from 127.0.0.1:59951
+2025-09-07 09:10:34,975 - session_manager - INFO - ✅ Peer peer_127.0.0.1_1757216434_f7edd146 joined session session_41d5b88099e82b48e3cb959139c7c1de
+2025-09-07 09:10:34,976 - app - INFO - SUCCESS SENT JOINED_SESSION: {"type":"JOINED_SESSION","session_id":"session_41d5b88099e82b48e3cb959139c7c1de","role":"joiner","in...
+2025-09-07 09:10:34,977 - app - INFO - 127.0.0.1:59951 joined session session_41d5b88099e82b48e3cb959139c7c1de
+2025-09-07 09:10:34,978 - app - INFO - Broadcast SESSION_READY sent to 2/2 peers in session session_41d5b88099e82b48e3cb959139c7c1de
+2025-09-07 09:10:34,978 - app - INFO - Session session_41d5b88099e82b48e3cb959139c7c1de complete - notified 2 peers
+2025-09-07 09:10:34,992 - app - INFO - Message #2 from 127.0.0.1:58435: {"type":"KEY_EXCHANGE","timestamp":1757216434.9848738,"session_id":"session_41d5b88099e82b48e3cb959139c7c1de","public_key":"-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEoIkV7lSL9I/p...
+2025-09-07 09:10:34,992 - app - INFO - Processing KEY_EXCHANGE from 127.0.0.1:58435
+2025-09-07 09:10:34,992 - session_manager - INFO - 🔑 Stored public key for sender (role: PeerRole.INITIATOR) in session session_41d5b88099e82b48e3cb959139c7c1de
+2025-09-07 09:10:34,994 - app - ERROR - KEY_EXCHANGE error for 127.0.0.1:58435: This event loop is already running
+2025-09-07 09:10:34,996 - app - INFO - SUCCESS SENT ERROR_KEY_EXCHANGE_ERROR: {"type":"ERROR","error_code":"KEY_EXCHANGE_ERROR","message":"Key exchange failed: This event loop is...
+2025-09-07 09:15:34,979 - app - WARNING - Timeout waiting for message from 127.0.0.1:59951 after 1 messages
+2025-09-07 09:15:34,980 - app - INFO - SUCCESS SENT ERROR_TIMEOUT: {"type":"ERROR","error_code":"TIMEOUT","message":"Connection timeout - no activity","timestamp":1757...
+2025-09-07 09:15:34,980 - connection_manager - INFO - WebSocket disconnected: Address(host='127.0.0.1', port=59951)
+2025-09-07 09:15:34,980 - app - INFO - Session session_41d5b88099e82b48e3cb959139c7c1de still has 2 connections
+2025-09-07 09:15:34,980 - app - INFO - Connection cleanup complete for 127.0.0.1:59951: 1 messages over 300.0s
+2025-09-07 09:15:35,027 - app - WARNING - Timeout waiting for message from 127.0.0.1:58435 after 2 messages
+2025-09-07 09:15:35,027 - app - INFO - SUCCESS SENT ERROR_TIMEOUT: {"type":"ERROR","error_code":"TIMEOUT","message":"Connection timeout - no activity","timestamp":1757...
+2025-09-07 09:15:35,027 - connection_manager - INFO - WebSocket disconnected: Address(host='127.0.0.1', port=58435)
+2025-09-07 09:15:35,030 - app - INFO - Session session_41d5b88099e82b48e3cb959139c7c1de still has 2 connections
+2025-09-07 09:15:35,030 - app - INFO - Connection cleanup complete for 127.0.0.1:58435: 2 messages over 349.9s
+2025-09-07 09:17:30,664 - app - INFO - Shutting down Advanced P2P Broker Server...
+2025-09-07 09:17:30,664 - session_manager - INFO - 🧹 Session session_41d5b88099e82b48e3cb959139c7c1de cleaned up
+2025-09-07 09:17:30,664 - session_manager - INFO - 🛑 Session manager background cleanup stopped
+2025-09-07 09:17:30,664 - app - INFO - Session manager background tasks stopped gracefully
+2025-09-07 09:17:30,666 - app - INFO - All sessions cleaned up
+2025-09-07 09:17:33,794 - __main__ - INFO - Starting Advanced P2P Broker Server with Production Configuration...
+2025-09-07 09:17:33,794 - __main__ - INFO - Features: Windows-compatible, Fixed WebSocket sending, Production logging
+2025-09-07 09:17:33,794 - __main__ - INFO - Security: Token-based sessions, E2E encryption, Zero-knowledge relay
+2025-09-07 09:17:33,794 - __main__ - INFO - Server: 0.0.0.0:8000
+2025-09-07 09:17:33,794 - __main__ - INFO - WebSocket Fix: Using send_text() method to prevent 'string indices' error
+2025-09-07 09:17:33,794 - __main__ - INFO - ASYNC FIX: Using await instead of loop.run_until_complete in async context
+2025-09-07 09:17:33,887 - app - INFO - Starting Advanced P2P Broker Server v3.0.0...
+2025-09-07 09:17:33,887 - app - INFO - Server configuration: 0.0.0.0:8000
+2025-09-07 09:17:33,887 - app - INFO - Production mode: True
+2025-09-07 09:17:33,887 - app - INFO - Security features: Token-based sessions, E2E encryption, Advanced error handling
+2025-09-07 09:17:33,887 - session_manager - INFO - 🧹 Session manager background cleanup started
+2025-09-07 09:17:33,887 - app - INFO - Session manager background tasks started
+2025-09-07 09:17:33,887 - app - INFO - Initial state: 0 active sessions
+2025-09-07 09:17:33,887 - app - INFO - Connection manager initialized
+2025-09-07 09:17:33,887 - app - INFO - Available features: CREATE_INVITATION, JOIN_BY_TOKEN, KEY_EXCHANGE, ENCRYPTED_MESSAGE
+2025-09-07 09:17:33,889 - app - INFO - Backwards compatibility: REGISTER, JOIN_SESSION enabled
+2025-09-07 09:17:49,542 - app - INFO - New WebSocket connection: 127.0.0.1:50299 (conn_1757216869_50299)
+2025-09-07 09:17:49,542 - connection_manager - INFO - WebSocket connected: Address(host='127.0.0.1', port=50299)
+2025-09-07 09:17:49,544 - app - INFO - WebSocket accepted: 127.0.0.1:50299
+2025-09-07 09:17:49,552 - app - INFO - Message #1 from 127.0.0.1:50299: {"type":"CREATE_INVITATION","timestamp":1757216869.5504951,"intent":"send_files","capabilities":["file_upload","encryption"],"expires_in_minutes":30}...
+2025-09-07 09:17:49,552 - app - INFO - Processing CREATE_INVITATION from 127.0.0.1:50299
+2025-09-07 09:17:49,559 - session_manager - INFO - ✅ Created secure session session_1c4924c772c33daf3d7333aab94dc4a1 with token tok_tRmVxCQX4XsF...
+2025-09-07 09:17:49,560 - session_manager - INFO - ✅ Peer peer_127.0.0.1_1757216869_b3e1a14c joined session session_1c4924c772c33daf3d7333aab94dc4a1
+2025-09-07 09:17:49,560 - app - INFO - SUCCESS SENT INVITATION_CREATED: {"type":"INVITATION_CREATED","token":"tok_tRmVxCQX4XsFsQVIfx31F7HUX3z6RKseDyNy0czzMCs","session_id":...
+2025-09-07 09:17:49,560 - app - INFO - Created invitation for 127.0.0.1:50299: token=tok_tRmVxCQX4XsF..., session=session_1c4924c772c33daf3d7333aab94dc4a1
+2025-09-07 09:18:09,926 - app - INFO - New WebSocket connection: 127.0.0.1:50304 (conn_1757216889_50304)
+2025-09-07 09:18:09,926 - connection_manager - INFO - WebSocket connected: Address(host='127.0.0.1', port=50304)
+2025-09-07 09:18:09,926 - app - INFO - WebSocket accepted: 127.0.0.1:50304
+2025-09-07 09:18:09,938 - app - INFO - Message #1 from 127.0.0.1:50304: {"type":"JOIN_BY_TOKEN","timestamp":1757216889.9315515,"token":"tok_tRmVxCQX4XsFsQVIfx31F7HUX3z6RKseDyNy0czzMCs","intent":"receive_files","capabilities":["file_storage","encryption"]}...
+2025-09-07 09:18:09,938 - app - INFO - Processing JOIN_BY_TOKEN from 127.0.0.1:50304
+2025-09-07 09:18:09,938 - session_manager - INFO - ✅ Peer peer_127.0.0.1_1757216889_b8761129 joined session session_1c4924c772c33daf3d7333aab94dc4a1
+2025-09-07 09:18:09,941 - app - INFO - SUCCESS SENT JOINED_SESSION: {"type":"JOINED_SESSION","session_id":"session_1c4924c772c33daf3d7333aab94dc4a1","role":"joiner","in...
+2025-09-07 09:18:09,941 - app - INFO - 127.0.0.1:50304 joined session session_1c4924c772c33daf3d7333aab94dc4a1
+2025-09-07 09:18:09,943 - app - INFO - Broadcast SESSION_READY sent to 2/2 peers in session session_1c4924c772c33daf3d7333aab94dc4a1
+2025-09-07 09:18:09,952 - app - INFO - Session session_1c4924c772c33daf3d7333aab94dc4a1 complete - notified 2 peers
+2025-09-07 09:18:09,959 - app - INFO - Message #2 from 127.0.0.1:50299: {"type":"KEY_EXCHANGE","timestamp":1757216889.953381,"session_id":"session_1c4924c772c33daf3d7333aab94dc4a1","public_key":"-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEkGDiUmFp3wAvG...
+2025-09-07 09:18:09,959 - app - INFO - Processing KEY_EXCHANGE from 127.0.0.1:50299
+2025-09-07 09:18:09,959 - session_manager - INFO - 🔑 Stored public key for sender (role: PeerRole.INITIATOR) in session session_1c4924c772c33daf3d7333aab94dc4a1
+2025-09-07 09:18:09,962 - connection_manager - WARNING - No receiver found in session session_1c4924c772c33daf3d7333aab94dc4a1
+2025-09-07 09:18:09,962 - app - WARNING - No receiver connection found in session session_1c4924c772c33daf3d7333aab94dc4a1
+2025-09-07 09:18:09,962 - app - INFO - SUCCESS SENT ERROR_PEER_NOT_FOUND: {"type":"ERROR","error_code":"PEER_NOT_FOUND","message":"Peer receiver not connected","timestamp":17...
+2025-09-07 09:23:09,951 - app - WARNING - Timeout waiting for message from 127.0.0.1:50304 after 1 messages
+2025-09-07 09:23:09,951 - app - INFO - SUCCESS SENT ERROR_TIMEOUT: {"type":"ERROR","error_code":"TIMEOUT","message":"Connection timeout - no activity","timestamp":1757...
+2025-09-07 09:23:09,951 - connection_manager - INFO - WebSocket disconnected: Address(host='127.0.0.1', port=50304)
+2025-09-07 09:23:09,951 - app - INFO - Session session_1c4924c772c33daf3d7333aab94dc4a1 still has 2 connections
+2025-09-07 09:23:09,951 - app - INFO - Connection cleanup complete for 127.0.0.1:50304: 1 messages over 300.0s
+2025-09-07 09:23:09,951 - app - WARNING - Timeout waiting for message from 127.0.0.1:50299 after 2 messages
+2025-09-07 09:23:09,951 - app - INFO - SUCCESS SENT ERROR_TIMEOUT: {"type":"ERROR","error_code":"TIMEOUT","message":"Connection timeout - no activity","timestamp":1757...
+2025-09-07 09:23:09,951 - connection_manager - INFO - WebSocket disconnected: Address(host='127.0.0.1', port=50299)
+2025-09-07 09:23:09,951 - app - INFO - Session session_1c4924c772c33daf3d7333aab94dc4a1 still has 2 connections
+2025-09-07 09:23:09,951 - app - INFO - Connection cleanup complete for 127.0.0.1:50299: 2 messages over 320.4s
+2025-09-07 09:23:37,386 - app - INFO - Shutting down Advanced P2P Broker Server...
+2025-09-07 09:23:37,386 - session_manager - INFO - 🧹 Session session_1c4924c772c33daf3d7333aab94dc4a1 cleaned up
+2025-09-07 09:23:37,386 - session_manager - INFO - 🛑 Session manager background cleanup stopped
+2025-09-07 09:23:37,386 - app - INFO - Session manager background tasks stopped gracefully
+2025-09-07 09:23:37,388 - app - INFO - All sessions cleaned up
+2025-09-07 09:23:49,221 - __main__ - INFO - Starting Advanced P2P Broker Server with Production Configuration...
+2025-09-07 09:23:49,221 - __main__ - INFO - Features: Windows-compatible, Fixed WebSocket sending, Production logging
+2025-09-07 09:23:49,221 - __main__ - INFO - Security: Token-based sessions, E2E encryption, Zero-knowledge relay
+2025-09-07 09:23:49,221 - __main__ - INFO - Server: 0.0.0.0:8000
+2025-09-07 09:23:49,221 - __main__ - INFO - WebSocket Fix: Using send_text() method to prevent 'string indices' error
+2025-09-07 09:23:49,224 - __main__ - INFO - ASYNC FIX: Using await instead of loop.run_until_complete in async context
+2025-09-07 09:23:49,295 - app - INFO - Starting Advanced P2P Broker Server v3.0.0...
+2025-09-07 09:23:49,295 - app - INFO - Server configuration: 0.0.0.0:8000
+2025-09-07 09:23:49,295 - app - INFO - Production mode: True
+2025-09-07 09:23:49,295 - app - INFO - Security features: Token-based sessions, E2E encryption, Advanced error handling
+2025-09-07 09:23:49,295 - session_manager - INFO - 🧹 Session manager background cleanup started
+2025-09-07 09:23:49,295 - app - INFO - Session manager background tasks started
+2025-09-07 09:23:49,300 - app - INFO - Initial state: 0 active sessions
+2025-09-07 09:23:49,300 - app - INFO - Connection manager initialized
+2025-09-07 09:23:49,300 - app - INFO - Available features: CREATE_INVITATION, JOIN_BY_TOKEN, KEY_EXCHANGE, ENCRYPTED_MESSAGE
+2025-09-07 09:23:49,300 - app - INFO - Backwards compatibility: REGISTER, JOIN_SESSION enabled
+2025-09-07 09:24:02,130 - app - INFO - New WebSocket connection: 127.0.0.1:62760 (conn_1757217242_62760)
+2025-09-07 09:24:02,132 - connection_manager - INFO - WebSocket connected: Address(host='127.0.0.1', port=62760)
+2025-09-07 09:24:02,132 - app - INFO - WebSocket accepted: 127.0.0.1:62760
+2025-09-07 09:24:02,142 - app - INFO - Message #1 from 127.0.0.1:62760: {"type":"CREATE_INVITATION","timestamp":1757217242.1370518,"intent":"send_files","capabilities":["file_upload","encryption"],"expires_in_minutes":30}...
+2025-09-07 09:24:02,142 - app - INFO - Processing CREATE_INVITATION from 127.0.0.1:62760
+2025-09-07 09:24:02,142 - session_manager - INFO - ✅ Created secure session session_2a05713fbb05f3e545e9c8f7e9c2dc1f with token tok_sTCHTSEi4AH2...
+2025-09-07 09:24:02,142 - session_manager - INFO - ✅ Peer peer_127.0.0.1_1757217242_d00746ad joined session session_2a05713fbb05f3e545e9c8f7e9c2dc1f
+2025-09-07 09:24:02,142 - app - INFO - SUCCESS SENT INVITATION_CREATED: {"type":"INVITATION_CREATED","token":"tok_sTCHTSEi4AH2bCetWHcGwIj0EUelL0t-VZFqeyZrrGY","session_id":...
+2025-09-07 09:24:02,142 - app - INFO - Created invitation for 127.0.0.1:62760: token=tok_sTCHTSEi4AH2..., session=session_2a05713fbb05f3e545e9c8f7e9c2dc1f
+2025-09-07 09:24:24,938 - app - INFO - New WebSocket connection: 127.0.0.1:62766 (conn_1757217264_62766)
+2025-09-07 09:24:24,941 - connection_manager - INFO - WebSocket connected: Address(host='127.0.0.1', port=62766)
+2025-09-07 09:24:24,941 - app - INFO - WebSocket accepted: 127.0.0.1:62766
+2025-09-07 09:24:24,949 - app - INFO - Message #1 from 127.0.0.1:62766: {"type":"JOIN_BY_TOKEN","timestamp":1757217264.9448714,"token":"tok_sTCHTSEi4AH2bCetWHcGwIj0EUelL0t-VZFqeyZrrGY","intent":"receive_files","capabilities":["file_storage","encryption"]}...
+2025-09-07 09:24:24,953 - app - INFO - Processing JOIN_BY_TOKEN from 127.0.0.1:62766
+2025-09-07 09:24:24,953 - session_manager - INFO - ✅ Peer peer_127.0.0.1_1757217264_ea2bec81 joined session session_2a05713fbb05f3e545e9c8f7e9c2dc1f
+2025-09-07 09:24:24,954 - app - INFO - SUCCESS SENT JOINED_SESSION: {"type":"JOINED_SESSION","session_id":"session_2a05713fbb05f3e545e9c8f7e9c2dc1f","role":"joiner","in...
+2025-09-07 09:24:24,954 - app - INFO - 127.0.0.1:62766 joined session session_2a05713fbb05f3e545e9c8f7e9c2dc1f
+2025-09-07 09:24:24,954 - app - INFO - Broadcast SESSION_READY sent to 2/2 peers in session session_2a05713fbb05f3e545e9c8f7e9c2dc1f
+2025-09-07 09:24:24,956 - app - INFO - Session session_2a05713fbb05f3e545e9c8f7e9c2dc1f complete - notified 2 peers
+2025-09-07 09:24:24,967 - app - INFO - Message #2 from 127.0.0.1:62760: {"type":"KEY_EXCHANGE","timestamp":1757217264.961511,"session_id":"session_2a05713fbb05f3e545e9c8f7e9c2dc1f","public_key":"-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEh38SBlV+coHls...
+2025-09-07 09:24:24,967 - app - INFO - Processing KEY_EXCHANGE from 127.0.0.1:62760
+2025-09-07 09:24:24,968 - session_manager - INFO - 🔑 Stored public key for sender (role: PeerRole.INITIATOR) in session session_2a05713fbb05f3e545e9c8f7e9c2dc1f
+2025-09-07 09:24:24,968 - connection_manager - WARNING - No receiver found in session session_2a05713fbb05f3e545e9c8f7e9c2dc1f
+2025-09-07 09:24:24,968 - app - WARNING - No receiver connection found in session session_2a05713fbb05f3e545e9c8f7e9c2dc1f
+2025-09-07 09:24:24,968 - app - INFO - SUCCESS SENT ERROR_PEER_NOT_FOUND: {"type":"ERROR","error_code":"PEER_NOT_FOUND","message":"Peer receiver not connected","timestamp":17...
+2025-09-07 09:29:24,941 - app - WARNING - Timeout waiting for message from 127.0.0.1:62766 after 1 messages
+2025-09-07 09:29:24,941 - app - INFO - SUCCESS SENT ERROR_TIMEOUT: {"type":"ERROR","error_code":"TIMEOUT","message":"Connection timeout - no activity","timestamp":1757...
+2025-09-07 09:29:24,944 - connection_manager - INFO - WebSocket disconnected: Address(host='127.0.0.1', port=62766)
+2025-09-07 09:29:24,944 - app - INFO - Session session_2a05713fbb05f3e545e9c8f7e9c2dc1f still has 2 connections
+2025-09-07 09:29:24,944 - app - INFO - Connection cleanup complete for 127.0.0.1:62766: 1 messages over 300.0s
+2025-09-07 09:29:24,988 - app - WARNING - Timeout waiting for message from 127.0.0.1:62760 after 2 messages
+2025-09-07 09:29:24,990 - app - INFO - SUCCESS SENT ERROR_TIMEOUT: {"type":"ERROR","error_code":"TIMEOUT","message":"Connection timeout - no activity","timestamp":1757...
+2025-09-07 09:29:24,990 - connection_manager - INFO - WebSocket disconnected: Address(host='127.0.0.1', port=62760)
+2025-09-07 09:29:24,992 - app - INFO - Session session_2a05713fbb05f3e545e9c8f7e9c2dc1f still has 2 connections
+2025-09-07 09:29:24,992 - app - INFO - Connection cleanup complete for 127.0.0.1:62760: 2 messages over 322.9s
+2025-09-07 09:58:49,343 - session_manager - INFO - 🧹 Session session_2a05713fbb05f3e545e9c8f7e9c2dc1f cleaned up
+2025-09-07 09:58:49,343 - session_manager - INFO - 🧹 Cleaned up 1 expired sessions
+2025-09-07 10:00:28,003 - app - INFO - Shutting down Advanced P2P Broker Server...
+2025-09-07 10:00:28,004 - session_manager - INFO - 🛑 Session manager background cleanup stopped
+2025-09-07 10:00:28,004 - app - INFO - Session manager background tasks stopped gracefully
+2025-09-07 10:00:28,004 - app - INFO - All sessions cleaned up
+2025-09-07 10:00:36,158 - __main__ - INFO - Starting Advanced P2P Broker Server with Production Configuration...
+2025-09-07 10:00:36,158 - __main__ - INFO - Features: Windows-compatible, Fixed WebSocket sending, Production logging
+2025-09-07 10:00:36,158 - __main__ - INFO - Security: Token-based sessions, E2E encryption, Zero-knowledge relay
+2025-09-07 10:00:36,158 - __main__ - INFO - Server: 0.0.0.0:8000
+2025-09-07 10:00:36,158 - __main__ - INFO - WebSocket Fix: Using send_text() method to prevent 'string indices' error
+2025-09-07 10:00:36,158 - __main__ - INFO - ASYNC FIX: Using await instead of loop.run_until_complete in async context
+2025-09-07 10:00:36,241 - app - INFO - Starting Advanced P2P Broker Server v3.0.0...
+2025-09-07 10:00:36,241 - app - INFO - Server configuration: 0.0.0.0:8000
+2025-09-07 10:00:36,241 - app - INFO - Production mode: True
+2025-09-07 10:00:36,241 - app - INFO - Security features: Token-based sessions, E2E encryption, Advanced error handling
+2025-09-07 10:00:36,244 - session_manager - INFO - 🧹 Session manager background cleanup started
+2025-09-07 10:00:36,244 - app - INFO - Session manager background tasks started
+2025-09-07 10:00:36,244 - app - INFO - Initial state: 0 active sessions
+2025-09-07 10:00:36,244 - app - INFO - Connection manager initialized
+2025-09-07 10:00:36,244 - app - INFO - Available features: CREATE_INVITATION, JOIN_BY_TOKEN, KEY_EXCHANGE, ENCRYPTED_MESSAGE
+2025-09-07 10:00:36,244 - app - INFO - Backwards compatibility: REGISTER, JOIN_SESSION enabled
+2025-09-07 10:00:48,097 - app - INFO - New WebSocket connection: 127.0.0.1:60644 (conn_1757219448_60644)
+2025-09-07 10:00:48,100 - connection_manager - INFO - WebSocket connected: Address(host='127.0.0.1', port=60644)
+2025-09-07 10:00:48,100 - app - INFO - WebSocket accepted: 127.0.0.1:60644
+2025-09-07 10:00:48,111 - app - INFO - Message #1 from 127.0.0.1:60644: {"type":"CREATE_INVITATION","timestamp":1757219448.10478,"intent":"send_files","capabilities":["file_upload","encryption"],"expires_in_minutes":30}...
+2025-09-07 10:00:48,111 - app - INFO - Processing CREATE_INVITATION from 127.0.0.1:60644
+2025-09-07 10:00:48,111 - session_manager - INFO - ✅ Created secure session session_3e93b0956f38bf981b0f5cd1cd10c77e with token tok_vYzlaAEBRCyF...
+2025-09-07 10:00:48,111 - session_manager - INFO - ✅ Peer peer_127.0.0.1_1757219448_317be8d9 joined session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:00:48,111 - app - INFO - SUCCESS SENT INVITATION_CREATED: {"type":"INVITATION_CREATED","token":"tok_vYzlaAEBRCyFT1Zpxa2n7KL8YFotsdx0DruWa9bYDYI","session_id":...
+2025-09-07 10:00:48,111 - app - INFO - Created invitation for 127.0.0.1:60644: token=tok_vYzlaAEBRCyF..., session=session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:08,843 - app - INFO - New WebSocket connection: 127.0.0.1:60656 (conn_1757219468_60656)
+2025-09-07 10:01:08,843 - connection_manager - INFO - WebSocket connected: Address(host='127.0.0.1', port=60656)
+2025-09-07 10:01:08,843 - app - INFO - WebSocket accepted: 127.0.0.1:60656
+2025-09-07 10:01:08,854 - app - INFO - Message #1 from 127.0.0.1:60656: {"type":"JOIN_BY_TOKEN","timestamp":1757219468.848317,"token":"tok_vYzlaAEBRCyFT1Zpxa2n7KL8YFotsdx0DruWa9bYDYI","intent":"receive_files","capabilities":["file_storage","encryption"]}...
+2025-09-07 10:01:08,854 - app - INFO - Processing JOIN_BY_TOKEN from 127.0.0.1:60656
+2025-09-07 10:01:08,854 - session_manager - INFO - ✅ Peer peer_127.0.0.1_1757219468_a0523675 joined session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:08,854 - app - INFO - SUCCESS SENT JOINED_SESSION: {"type":"JOINED_SESSION","session_id":"session_3e93b0956f38bf981b0f5cd1cd10c77e","role":"joiner","in...
+2025-09-07 10:01:08,858 - app - INFO - 127.0.0.1:60656 joined session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:08,858 - app - INFO - Broadcast SESSION_READY sent to 2/2 peers in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:08,858 - app - INFO - Session session_3e93b0956f38bf981b0f5cd1cd10c77e complete - notified 2 peers
+2025-09-07 10:01:08,864 - app - INFO - Message #2 from 127.0.0.1:60644: {"type":"KEY_EXCHANGE","timestamp":1757219468.8632464,"session_id":"session_3e93b0956f38bf981b0f5cd1cd10c77e","public_key":"-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE93Fxz5EyJYk0...
+2025-09-07 10:01:08,864 - app - INFO - Processing KEY_EXCHANGE from 127.0.0.1:60644
+2025-09-07 10:01:08,864 - app - INFO - 🔑 Processing key exchange for sender in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:08,864 - session_manager - INFO - 🔑 Stored public key for sender (role: PeerRole.INITIATOR) in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:08,871 - app - INFO - 🔍 Looking for peer connection with roles: ['joiner', 'receiver']
+2025-09-07 10:01:08,871 - connection_manager - INFO - ✅ Found connection for 'joiner' (matched as 'joiner') in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:08,871 - app - INFO - ✅ Found peer connection for role: joiner
+2025-09-07 10:01:08,872 - app - INFO - 🚀 Successfully relayed ECDH-P256 key from sender to joiner in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:08,891 - app - INFO - Message #2 from 127.0.0.1:60656: {"type":"KEY_EXCHANGE","timestamp":1757219468.8874748,"session_id":"session_3e93b0956f38bf981b0f5cd1cd10c77e","public_key":"-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEl0DA8co3vlDJ...
+2025-09-07 10:01:08,891 - app - INFO - Processing KEY_EXCHANGE from 127.0.0.1:60656
+2025-09-07 10:01:08,891 - app - INFO - 🔑 Processing key exchange for receiver in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:08,895 - session_manager - INFO - 🔑 Stored public key for receiver (role: PeerRole.JOINER) in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:08,895 - app - INFO - 🔍 Looking for peer connection with roles: ['initiator', 'sender']
+2025-09-07 10:01:08,895 - connection_manager - INFO - ✅ Found connection for 'initiator' (matched as 'initiator') in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:08,895 - app - INFO - ✅ Found peer connection for role: initiator
+2025-09-07 10:01:08,897 - app - INFO - 🚀 Successfully relayed ECDH-P256 key from receiver to initiator in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:08,911 - app - INFO - Message #3 from 127.0.0.1:60644: {"type":"ENCRYPTED_MESSAGE","timestamp":1757219468.9057941,"session_id":"session_3e93b0956f38bf981b0f5cd1cd10c77e","target_peer":"receiver","encrypted_payload":"DBZT5U1AlDDiZjpwwb7Fitv81OPBa5dbX0Umwsd...
+2025-09-07 10:01:08,911 - app - INFO - Processing ENCRYPTED_MESSAGE from 127.0.0.1:60644
+2025-09-07 10:01:08,911 - connection_manager - INFO - ✅ Found connection for 'receiver' (matched as 'joiner') in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:08,914 - app - INFO - Relayed encrypted AUTH message in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:08,929 - app - INFO - Message #3 from 127.0.0.1:60656: {"type":"ENCRYPTED_MESSAGE","timestamp":1757219468.9224653,"session_id":"session_3e93b0956f38bf981b0f5cd1cd10c77e","target_peer":"sender","encrypted_payload":"/5HyPIGgQTQISiCJMT42wnHCPZNfbZpabcGNxF8OM...
+2025-09-07 10:01:08,930 - app - INFO - Processing ENCRYPTED_MESSAGE from 127.0.0.1:60656
+2025-09-07 10:01:08,930 - connection_manager - INFO - ✅ Found connection for 'sender' (matched as 'initiator') in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:08,932 - app - INFO - Relayed encrypted RESPONSE message in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:09,957 - app - INFO - Message #4 from 127.0.0.1:60644: {"type":"ENCRYPTED_MESSAGE","timestamp":1757219469.9541636,"session_id":"session_3e93b0956f38bf981b0f5cd1cd10c77e","target_peer":"receiver","encrypted_payload":"j23KKAvZgAqzmiLJkHuWp5QHIKAIREWsIJ/ipSQ...
+2025-09-07 10:01:09,957 - app - INFO - Processing ENCRYPTED_MESSAGE from 127.0.0.1:60644
+2025-09-07 10:01:09,957 - connection_manager - INFO - ✅ Found connection for 'receiver' (matched as 'joiner') in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:09,962 - app - INFO - Relayed encrypted LIST message in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:09,974 - app - INFO - Message #4 from 127.0.0.1:60656: {"type":"ENCRYPTED_MESSAGE","timestamp":1757219469.9676824,"session_id":"session_3e93b0956f38bf981b0f5cd1cd10c77e","target_peer":"sender","encrypted_payload":"yu85FAOru13MfF8vst5fW2OYF7B1alUlBCiCpTMDZ...
+2025-09-07 10:01:09,976 - app - INFO - Processing ENCRYPTED_MESSAGE from 127.0.0.1:60656
+2025-09-07 10:01:09,976 - connection_manager - INFO - ✅ Found connection for 'sender' (matched as 'initiator') in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:09,977 - app - INFO - Relayed encrypted RESPONSE message in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:10,993 - app - INFO - Message #5 from 127.0.0.1:60644: {"type":"ENCRYPTED_MESSAGE","timestamp":1757219470.9914172,"session_id":"session_3e93b0956f38bf981b0f5cd1cd10c77e","target_peer":"receiver","encrypted_payload":"7cYxpHkD5whdMWlX7EF5i+F3qvkjQaNx1UT0h26...
+2025-09-07 10:01:10,993 - app - INFO - Processing ENCRYPTED_MESSAGE from 127.0.0.1:60644
+2025-09-07 10:01:10,993 - connection_manager - INFO - ✅ Found connection for 'receiver' (matched as 'joiner') in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:10,993 - app - INFO - Relayed encrypted UPLOAD message in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:11,010 - app - INFO - Message #5 from 127.0.0.1:60656: {"type":"ENCRYPTED_MESSAGE","timestamp":1757219471.0034657,"session_id":"session_3e93b0956f38bf981b0f5cd1cd10c77e","target_peer":"sender","encrypted_payload":"bopOgk5oPAe5fY8r90heICtZs6gDEBOeAr676eMUp...
+2025-09-07 10:01:11,010 - app - INFO - Processing ENCRYPTED_MESSAGE from 127.0.0.1:60656
+2025-09-07 10:01:11,010 - connection_manager - INFO - ✅ Found connection for 'sender' (matched as 'initiator') in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:01:11,010 - app - INFO - Relayed encrypted RESPONSE message in session session_3e93b0956f38bf981b0f5cd1cd10c77e
+2025-09-07 10:06:11,000 - app - WARNING - Timeout waiting for message from 127.0.0.1:60656 after 5 messages
+2025-09-07 10:06:11,000 - app - INFO - SUCCESS SENT ERROR_TIMEOUT: {"type":"ERROR","error_code":"TIMEOUT","message":"Connection timeout - no activity","timestamp":1757...
+2025-09-07 10:06:11,000 - connection_manager - INFO - WebSocket disconnected: Address(host='127.0.0.1', port=60656)
+2025-09-07 10:06:11,000 - app - INFO - Session session_3e93b0956f38bf981b0f5cd1cd10c77e still has 2 connections
+2025-09-07 10:06:11,000 - app - INFO - Connection cleanup complete for 127.0.0.1:60656: 5 messages over 302.2s
+2025-09-07 10:06:11,000 - app - WARNING - Timeout waiting for message from 127.0.0.1:60644 after 5 messages
+2025-09-07 10:06:11,000 - app - INFO - SUCCESS SENT ERROR_TIMEOUT: {"type":"ERROR","error_code":"TIMEOUT","message":"Connection timeout - no activity","timestamp":1757...
+2025-09-07 10:06:11,000 - connection_manager - INFO - WebSocket disconnected: Address(host='127.0.0.1', port=60644)
+2025-09-07 10:06:11,000 - app - INFO - Session session_3e93b0956f38bf981b0f5cd1cd10c77e still has 2 connections
+2025-09-07 10:06:11,000 - app - INFO - Connection cleanup complete for 127.0.0.1:60644: 5 messages over 322.9s
+2025-09-07 10:12:21,944 - app - INFO - New WebSocket connection: 127.0.0.1:54443 (conn_1757220141_54443)
+2025-09-07 10:12:21,946 - connection_manager - INFO - WebSocket connected: Address(host='127.0.0.1', port=54443)
+2025-09-07 10:12:21,946 - app - INFO - WebSocket accepted: 127.0.0.1:54443
+2025-09-07 10:12:23,983 - app - INFO - New WebSocket connection: 127.0.0.1:54445 (conn_1757220143_54445)
+2025-09-07 10:12:23,983 - connection_manager - INFO - WebSocket connected: Address(host='127.0.0.1', port=54445)
+2025-09-07 10:12:23,983 - app - INFO - WebSocket accepted: 127.0.0.1:54445
+2025-09-07 10:12:24,005 - app - INFO - Message #1 from 127.0.0.1:54443: {"type": "REGISTER", "role": "sender", "device_info": {"debug": true}, "timestamp": 1757220143.9900725}...
+2025-09-07 10:12:24,006 - app - INFO - Processing REGISTER from 127.0.0.1:54443
+2025-09-07 10:12:24,006 - app - WARNING - Unknown message type 'REGISTER' from 127.0.0.1:54443
+2025-09-07 10:12:24,006 - app - INFO - SUCCESS SENT ERROR_UNKNOWN_MESSAGE_TYPE: {"type":"ERROR","error_code":"UNKNOWN_MESSAGE_TYPE","message":"Unknown message type: REGISTER. Suppo...
+2025-09-07 10:12:34,057 - app - INFO - Client 127.0.0.1:54443 disconnected gracefully
+2025-09-07 10:12:34,057 - connection_manager - INFO - WebSocket disconnected: Address(host='127.0.0.1', port=54443)
+2025-09-07 10:12:34,058 - app - INFO - Connection cleanup complete for 127.0.0.1:54443: 1 messages over 12.1s
+2025-09-07 10:12:34,058 - app - INFO - Client 127.0.0.1:54445 disconnected gracefully
+2025-09-07 10:12:34,058 - connection_manager - INFO - WebSocket disconnected: Address(host='127.0.0.1', port=54445)
+2025-09-07 10:12:34,059 - app - INFO - Connection cleanup complete for 127.0.0.1:54445: 0 messages over 10.1s
+2025-09-07 10:35:36,311 - session_manager - INFO - 🧹 Session session_3e93b0956f38bf981b0f5cd1cd10c77e cleaned up
+2025-09-07 10:35:36,311 - session_manager - INFO - 🧹 Cleaned up 1 expired sessions
