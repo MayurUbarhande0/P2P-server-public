@@ -12,7 +12,7 @@ Server link: https://p2p-server-jgqj.onrender.com/
 
 Socket link: wss://p2p-server-jgqj.onrender.com/ws
 
-The file connection_manager.py handles connection-making and session management.
+The file connection_manager.py handles connection-making and session_manager operates management.
 
 Testing ways:
 
